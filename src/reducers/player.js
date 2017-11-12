@@ -18,7 +18,7 @@ const iniitalState = [
   },
 ];
 
-export default function Player (state=iniitalState, action) {
+export default function PlayerReducer (state=iniitalState, action) {
   switch(action.type) {
     case PlayerActionTypes.ADD_PLAYER:
       return[
